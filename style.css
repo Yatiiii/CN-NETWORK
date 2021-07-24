@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    
+}
+.heading:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+.nav{
+    display: flex;
+ font-size: 20 px;
+    flex-direction: row;
+ align-items: center;
+    padding: 30px 30px 10px 30px;
+    justify-content:left;
+}
+.logo img{
+    width:150px;
+}
+ .nav .navbar{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.n:hover{
+    cursor: pointer;
+   color: blue;
+}
+.n{
+    margin: 25px;
+    padding: 0 20px 0 20px;
+}
+.navbar >*:first-child {
+    border-bottom: rgb(8, 150, 226) 6px solid;
+}
+.container{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 30px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+}
+
+
+.photo {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: auto; 
+    justify-content: flex-start;
+    width: 100%;
+}
+.p1:hover{
+   cursor: pointer;
+   
+   color:black;
+   transform: scale(1.1);
+   
+}
+.p2:hover{
+    cursor: pointer;
+     color:black;
+    transform: scale(1.1);
+    
+ }
+ .p3:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.1);
+    }
+.p4:hover{
+        cursor: pointer;
+        color:black;
+        transform: scale(1.1);
+}
+.p5:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.1);
+}
+.p6:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.1);
+}
+.p7:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.1);
+}
+.p8:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.1);
+}
+.p9:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.1);
+}
+.p1 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(Ben10.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p2 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(OKKO.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p3 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(Pokemon.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p4 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(StevenUniverse.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p5 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(WeBareBears.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p6 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(ThePowerPuffGirls.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p7 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(TheRegularShow.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.p8 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(AppleAndOnion.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;    
+    transition: 0.5s ease-out;
+}
+.p9 {
+    width: 32%;
+    padding: 15px;
+    margin: 7px;
+    height: 350px;
+    background: url(MaoMao.jpg) no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 -50px 120px -20px rgb(31 31 31);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s ease-out;
+}
+.heading{
+    background-color: black;
+    color: white;
+     padding: 35px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.about{
+    background: #000;
+    margin: 0;
+}
+p{
+    color: white;
+    padding: 0px 0px 2px 28px;
+margin: 0;
+font-size: 15px;
+}
+.foot{
+    display: flex;
+background-color:rgb(30, 28, 28);
+margin: 0 0 0 -40px;
+padding: 35px;
+justify-content: center;
+width: 108%;
+}
+.f{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    margin: -15px 0 0 0;
+justify-content: center;
+font-size: 15px     ;
+}
+.f1{
+    padding: 38px;
+    font-weight: bold;
+}
+.f1:hover{
+    cursor: pointer;
+    color: blue;
+}
+.copyright p{
+    margin: -56px 0 0 385px;;
+    font-size: 20px;
+}
+.corus{
+    display: flex;
+    margin: 0px 0 10px 0;
+    justify-content: center;
+    color: white;
+    background: #000;
+}
+.corus img {
+    width: 100px;
+    margin: 42px;
+        
+}
+.other{
+    margin:85px 0px 33px -190px;
+    font-size: 20px;
+}
+.disney{
+    display: flex;
+    background: #000;
+    align-items: center;
+    margin: -10px 0 0 0;
+    padding: 50px 0 0 250px;
+
+  
+}
+.disney img{
+    width: 100px;
+    margin: 40px;
+    opacity: .6;
+}
